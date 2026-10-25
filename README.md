@@ -7,6 +7,6 @@ Das IMDb-Rating wird automatisch über die OMDb-API geladen.
 Team
 Yurii
 Starten
-$env:OMDB_API_KEY=<eigener-key> (optional, sonst kein Rating)
+$env:OMDB_API_KEY="eigener-key" (optional, sonst kein Rating)
 ./gradlew bootRun
 Browser: http://localhost:8080/movies
